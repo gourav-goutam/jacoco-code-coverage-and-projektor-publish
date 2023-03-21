@@ -16,3 +16,12 @@
 
 <br/><br/>
 
+> **_Steps to setup in local ant test via docker containers_**
+>____________________
+* Clone this repo in local
+* Download the projektor jar from `https://github.com/craigatk/projektor/releases`
+* Build docker image using command `docker build -t projektor-server .` otherwise directly run the jar
+* Update your project's `build.gradle.kts` file by referring `build.gradle.kts` in this repo
+* Then use `gradlew` commands 
+
+Thanks !
