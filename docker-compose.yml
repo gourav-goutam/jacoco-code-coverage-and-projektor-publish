@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  projektor:
+    image: projektor-server:latest
+    container_name: projektor
+    restart: always
+    environment:
+      DB_URL: jdbc:postgresql://postgres:5432/projektordb
+    ports:
+      - "5600:8080"
+networks:
+  default:
+    name: postgres_default
+    external: true
