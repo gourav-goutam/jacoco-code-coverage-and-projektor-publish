@@ -1,6 +1,6 @@
-# New Spring Kotlin Application Template
+# Jacoco code coverage & Projektor publish
 
-> **_Tools version used_**
+> **_Tools version used in my project during creation_**
 >__________
 > Java version `17` <br/><br/>
 > Gradle version `7.6.1` <br/><br/>
